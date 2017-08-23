@@ -1,10 +1,88 @@
 
 body {
+<<<<<<< HEAD
 background-color: red;
 text-color: #555555;
+=======
+background-color: white;
+text-color: #000000;
+>>>>>>> 8fd60deaae8939cf48ce0158cb987efb6d45336c
 }
 
 h1, h2 {
-font: 1.37em "Arial Black", sans-serif
+font-size: 1.37em "Arial Black", sans-serif
+
 }
+
+h2 {
+color: #000000;
+font: 1.75 em "Arial Black", sans-serif
+font-style: bold;
+}
+
+}
+
+h3  {
+
+color: #11111;
+ font: 1.5em "Arial Black", sans-serif}
+}
+
+
+a:link {
+color: #74269D;
+}
+
+
+
+li {
+    list-style-type: square;
+}
+
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+header {
+position: center;
+border: solid;
+
+}
+nav {
+border: solid;
+}
+text-body {
+color: white;
+}
+
+
+footer {
+
+position: relative;
+    left: 500px;
+    border: 1px solid;
+    text-shadow: 2px 2px 10px blue;
+
+}
+
+-----------------------------------New in CSS3
+
+h1 {
+    text-shadow: 2px 2px red;
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
 
